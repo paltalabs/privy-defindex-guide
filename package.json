@@ -1,0 +1,30 @@
+{
+  "name": "privy-defindex-guide",
+  "version": "1.0.0",
+  "description": "Integration guide and runnable examples for Privy server wallets + Stellar + Defindex vaults",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "keygen": "tsx src/utils/generate-auth-key.ts",
+    "example:base": "tsx src/examples/01-base-wallet.ts",
+    "example:stellar": "tsx src/examples/02-stellar-wallet.ts",
+    "example:deposit": "tsx src/examples/03-deposit.ts",
+    "example:withdraw": "tsx src/examples/04-withdraw.ts",
+    "example:withdraw-shares": "tsx src/examples/05-withdraw-shares.ts",
+    "example:bridge": "tsx src/examples/06-full-bridge.ts"
+  },
+  "dependencies": {
+    "@privy-io/node": "^0.11.0",
+    "@sodax/sdk": "1.2.7-beta",
+    "@sodax/types": "^1.2.7-beta",
+    "@sodax/wallet-sdk-core": "1.2.7-beta",
+    "@stellar/stellar-base": "^12.1.1",
+    "dotenv": "^16.4.7",
+    "ethers": "^6.13.0"
+  },
+  "devDependencies": {
+    "@types/node": "^25.3.0",
+    "tsx": "^4.19.4",
+    "typescript": "^5.7.3"
+  }
+}
