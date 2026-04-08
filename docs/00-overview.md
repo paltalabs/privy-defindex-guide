@@ -17,6 +17,7 @@ Covers wallet creation, deposit, withdraw, withdraw-shares, and full Base→Stel
 | [06-withdraw.md](./06-withdraw.md) | Withdraw by underlying amount |
 | [07-withdraw-shares.md](./07-withdraw-shares.md) | Withdraw by vault shares (percentage redemption) |
 | [08-gotchas.md](./08-gotchas.md) | Known issues and their fixes |
+| [09-ownership-patterns.md](./09-ownership-patterns.md) | 4 ownership models: Auth Key, User Owner, 2-of-2 Quorum, Signer+Policy |
 
 ---
 
